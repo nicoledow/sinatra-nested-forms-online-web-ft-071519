@@ -1,0 +1,14 @@
+<h1>Display your Pirate here</h1>
+<p>Name: <%= @new_pirate.name %></p>
+<p>Height: <%= @new_pirate.height %></p>
+<p>Weight: <%= @new_pirate.weight %></p>
+
+<h2>Display your first ship here</h2>
+<p>Name: <%= @ships_array.first["name"] %></p>
+<p>Type: <%= @ships_array.first["type"] %></p>
+<p>Booty: <%= @ships_array.first["booty"] %></p>
+
+<h2>Display your second ship here</h2>
+<p>Name: <%= @ships_array[1]["name"] %></p>
+<p>Type: <%= @ships_array[1]["type"] %></p>
+<p>Booty: <%= @ships_array[1]["booty"] %></p>
